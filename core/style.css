@@ -182,6 +182,19 @@ img {
 }
 
 
+
+/**********************************/
+/********** Team #1 Style *********/
+/**********************************/
+.row1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 .column1 {
     position: relative;
     width: 100%;
@@ -214,6 +227,10 @@ img {
         max-width: 50%;
     }
 }
+
+
+
+
 .column2 {
     position: relative;
     width: 100%;
