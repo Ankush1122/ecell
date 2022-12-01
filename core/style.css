@@ -182,19 +182,6 @@ img {
 }
 
 
-
-/**********************************/
-/********** Team #1 Style *********/
-/**********************************/
-.row1 {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .column1 {
     position: relative;
     width: 100%;
@@ -227,106 +214,6 @@ img {
         max-width: 50%;
     }
 }
-.team-1 {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 80px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.team-1 .team-img {
-    overflow: hidden;
-}
-
-.team-1 .team-img img {
-    width: 100%;
-    height: auto;
-    transition: all .3s;
-}
-
-.team-1:hover .team-img img {
-    transform: scale(1.2);
-}
-
-.team-1 .team-content {
-    padding: 20px;
-}
-
-.team-1 .team-content h2 {
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
-.team-1 .team-content h3 {
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.team-1 .team-content h4 {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-bottom: 25px;
-}
-
-.team-1 .team-content p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-}
-
-.team-1 .team-social {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 0;
-}
-
-.team-1 .team-social a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
-    padding: 11px 0 10px 0;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;
-    color: #ffffff;
-    transition: all .3s;
-}
-
-.team-1 .team-social a.social-tw {
-    background: #00acee;
-}
-
-.team-1 .team-social a.social-fb {
-    background: #3b5998;
-}
-
-.team-1 .team-social a.social-li {
-    background: #0e76a8;
-}
-
-.team-1 .team-social a.social-in {
-    background: #3f729b;
-}
-
-.team-1 .team-social a.social-yt {
-    background: #c4302b;
-}
-
-.team-1 .team-social a:last-child {
-    margin-right: 0;
-}
-
-.team-1 .team-social a:hover {
-    background: #222222;
-}
-
-
-
 .column2 {
     position: relative;
     width: 100%;
