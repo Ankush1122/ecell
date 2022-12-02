@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: #f7e396;
+    background: #C2B280;
 }
 
 a {
@@ -281,12 +281,12 @@ img {
     width: 100%;
     height: auto;
     border-radius: 100%;
-    border: 15px solid #f7e396;
+    border: 15px solid #C2B280;
     transition: all .3s;
 }
 
 .team-6:hover .team-img img {
-    border: 0px solid #f7e396;
+    border: 0px solid #C2B280;
 }
 
 .team-6 .team-content {
