@@ -1,8 +1,12 @@
-from django.shortcuts import render, HttpResponse, redirect
+from django.shortcuts import render, redirect
 
 
 def home(request):
     return render(request, 'core/home.html')
+
+
+def team(request):
+    return render(request, 'core/team.html')
 
 
 def redir(request):

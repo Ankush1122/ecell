@@ -8,17 +8,13 @@
 }
 
 html {
-    font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    color: #454545;
-    font-weight: 300;
-    background: #ffffff;
+    background: #f7e396;
 }
 
 a {
@@ -51,9 +47,8 @@ h5,
 h6 {
     padding: 0;
     margin: 0 0 15px 0;
-    color: #333333;
+    color: #262626;
     font-weight: 700;
-    
 }
 
 h1 {
@@ -157,11 +152,11 @@ img {
     width: 50px;
     height: 5px;
     left: calc(50% - 25px);
-    background: #353535;
+    background: #262626;
 }
 
 .section-title h1 {
-    color: #353535;
+    color: #262626;
     font-size: 50px;
     letter-spacing: 5px;
     margin-bottom: 5px;
@@ -204,6 +199,7 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
 @media (min-width: 576px) {
     .column1 {
         -ms-flex: 0 0 50%;
@@ -240,6 +236,7 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
 @media (min-width: 576px) {
     .column2 {
         -ms-flex: 0 0 50%;
@@ -263,6 +260,7 @@ img {
         max-width: 33.333333%;
     }
 }
+
 /**********************************/
 /********* Team #6 Style **********/
 /**********************************/
@@ -283,12 +281,12 @@ img {
     width: 100%;
     height: auto;
     border-radius: 100%;
-    border: 15px solid #f3f4fa;
+    border: 15px solid #f7e396;
     transition: all .3s;
 }
 
 .team-6:hover .team-img img {
-    border: 0px solid #f3f4fa;
+    border: 0px solid #f7e396;
 }
 
 .team-6 .team-content {
@@ -305,7 +303,7 @@ img {
 .team-6 .team-content h3 {
     font-size: 16px;
     font-weight: 300;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .team-6 .team-social {
