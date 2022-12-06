@@ -7,20 +7,18 @@
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
+  <div class="background-image"></div>
   <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
     <div class="row">
       <div class="col-lg-8">
-        <h1>Welcome to <span>Restaurantly</span></h1>
-        <h2>Delivering great food for more than 18 years!</h2>
-
-        <div class="btns">
-          <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
-          <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+        <h1>Entrepreneurship Cell</h1>
+        <h1><span>IIT Jodhpur</span></h1>
+        <h2 class="text"></h2>
         </div>
-      </div>
+
       <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
         data-aos-delay="200">
-        <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+        <a href="https://www.youtube.com/watch?v=4U-Z0ebB0NI" class="glightbox play-btn"></a>
       </div>
 
     </div>
@@ -36,28 +34,54 @@
       <div class="row">
         <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
           <div class="about-img">
-            <img src=" {% static 'img/about.jpg' %}" alt="">
+            <div class="Sphere">
+            <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+            <script>
+              const Texts = [
+                  'Capital', 'Resources', 'Funding',
+                  'Incubation', 'Venture Capital', 'Finance',
+                  'Economics', 'Innovate',
+                  'Invest', 'Ideate', 'Marketing',
+                  'Business', 'StartUp', 'Create', 'Sponsor', 'Entrepreneurship'
+              ];
+      
+              var tagCloud = TagCloud('.Sphere', Texts, {
+      
+                  // Sphere radius in px
+                  radius: 230,
+      
+                  // animation speed
+                  // slow, normal, fast
+                  maxSpeed: 'normal',
+                  initSpeed: 'fast',
+      
+                  // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+                  direction: 135,
+      
+                  // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+                  keep: true
+      
+              });
+      
+              // Giving color to each text in sphere
+              var color = '#cda45e';
+              document.querySelector('.Sphere').style.color = color;
+          </script>
+        </div>
           </div>
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+          <h3>About Us</h3>
           <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua.
-          </p>
+            Entrepreneurship-Cell IIT Jodhpur is a student body that focuses on developing and promoting entrepreneurial eco-system and start-up skills in creative and potential minds.
+            </p>
           <ul>
-            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+            <li><i class="bi bi-check-circle"></i>Focuses on various dimensions of the corporate world that revolves around an entrepreneur.</li>
+            <li><i class="bi bi-check-circle"></i>Educate people about different aspects of a business</li>
+            <li><i class="bi bi-check-circle"></i>Guide and promote entrepreneurial ideas and provide resources to help them establish, nurture and run their own startup.
             </li>
           </ul>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </p>
+      
         </div>
       </div>
 
@@ -763,4 +787,4 @@
 
 </main><!-- End #main -->
 
-{% endblock content %}
+{% endblock %}
