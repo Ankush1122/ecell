@@ -17,7 +17,7 @@
     ```
 - Install Django new virtual environment
     ```
-    pipenv pipinstall django
+    pipenv install django
     ```
 - Run development server on localhost
     ```
