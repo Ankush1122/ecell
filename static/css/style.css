@@ -966,6 +966,7 @@ section {
   color: #aaaaaa;
   font-size: 15px;
   margin: 0;
+  text-align: justify;
 }
 
 .why-us .box:hover {
