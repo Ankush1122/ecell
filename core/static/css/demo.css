@@ -89,6 +89,7 @@ a:focus {
 	height: 0;
 	pointer-events: none;
 }
+
 /* Header */
 
 .codrops-header {
@@ -109,6 +110,7 @@ a:focus {
 	padding: .5em 0 1em;
 	color: #999;
 }
+
 /* Top Navigation Style */
 
 .codrops-links {
@@ -161,6 +163,7 @@ a:focus {
 .codrops-icon--prev:before {
 	content: '\e004';
 }
+
 /* Demo links */
 
 .codrops-demos {
@@ -176,11 +179,13 @@ a:focus {
 	font-weight: bold;
 	color: #3b393d;
 }
+
 /* Content */
 
 .content {
 	padding: 1em 0 4em;
 }
+
 /* Related demos */
 
 .content--related {
@@ -234,4 +239,28 @@ a:focus {
 		font-size: 2.4em;
 		line-height: 1.2;
 	}
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+	background: rgba(0, 0, 0, 0.55);
+	border-bottom: 1px solid rgba(12, 11, 9, 0.65);
+	transition: all 0.5s;
+	z-index: 997;
+	padding: 5px 0;
+	top: 2%;
+}
+
+#header.header-scrolled {
+	top: 0;
+	background: rgba(0, 0, 0, 0.8);
+	border-bottom: 1px solid #37332a;
+}
+
+#header .logo img {
+	max-height: 100px;
+
 }
