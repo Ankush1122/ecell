@@ -62,25 +62,6 @@ a:focus {
 	color: #3b393d;
 }
 
-/* .demo-2 a {
-	color: #7cc576;
-}
-
-.demo-3 {
-	background: #1b1b1b;
-}
-
-.demo-4 {
-	background: #acaad1;
-}
-
-.demo-4 a {
-	color: #6448a0;
-}
-
-.demo-4 .codrops-header h1 span {
-	color: #4f4c4c;
-} */
 
 .hidden {
 	position: absolute;
@@ -90,95 +71,6 @@ a:focus {
 	pointer-events: none;
 }
 
-/* Header */
-
-.codrops-header {
-	padding: 2em 1em;
-	text-align: center;
-}
-
-.codrops-header h1 {
-	font-size: 2.25em;
-	font-weight: 400;
-	line-height: 1.2;
-	margin: .5em 0 0;
-}
-
-.codrops-header h1 span {
-	font-size: .45em;
-	display: block;
-	padding: .5em 0 1em;
-	color: #999;
-}
-
-/* Top Navigation Style */
-
-.codrops-links {
-	position: relative;
-	display: inline-block;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-links::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 50%;
-	width: 2px;
-	height: 100%;
-	margin-left: -1px;
-	background: #ddd;
-	-webkit-transform: rotate3d(0, 0, 1, 22.5deg);
-	transform: rotate3d(0, 0, 1, 22.5deg);
-}
-
-.codrops-icon {
-	display: inline-block;
-	width: 1.5em;
-	margin: .5em;
-	padding: 0em 0;
-	text-decoration: none;
-}
-
-.codrops-icon span {
-	display: none;
-}
-
-.codrops-icon:before {
-	font-family: 'codropsicons';
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	line-height: 1;
-	margin: 0 5px;
-	text-transform: none;
-	-webkit-font-smoothing: antialiased;
-}
-
-.codrops-icon--drop:before {
-	content: '\e001';
-}
-
-.codrops-icon--prev:before {
-	content: '\e004';
-}
-
-/* Demo links */
-
-.codrops-demos {
-	margin: 2em 0 0;
-}
-
-.codrops-demos a {
-	display: inline-block;
-	margin: 0 .5em;
-}
-
-.codrops-demos a.current-demo {
-	font-weight: bold;
-	color: #3b393d;
-}
 
 /* Content */
 
@@ -246,18 +138,13 @@ a:focus {
 # Header
 --------------------------------------------------------------*/
 #header {
-	background: rgba(0, 0, 0, 0.55);
+	background: rgb(0, 0, 0, 0.9);
 	border-bottom: 1px solid rgba(12, 11, 9, 0.65);
 	transition: all 0.5s;
 	z-index: 997;
 	padding: 5px 0;
-	top: 2%;
-}
-
-#header.header-scrolled {
 	top: 0;
-	background: rgba(0, 0, 0, 0.8);
-	border-bottom: 1px solid #37332a;
+	max-width: 100%
 }
 
 #header .logo img {
