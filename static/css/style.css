@@ -164,8 +164,8 @@ a:hover {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(0, 0, 0, 0.8);
-  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(12, 11, 9, 0.8);
   transition: all 0.5s;
   z-index: 997;
   padding: 5px 0;
@@ -966,6 +966,7 @@ section {
   color: #aaaaaa;
   font-size: 15px;
   margin: 0;
+  text-align: justify;
 }
 
 .why-us .box:hover {

@@ -7,10 +7,6 @@
     ```
     pip install pipenv
     ```
-- Use pipenv to install other dependencies from `Pipfile`
-    ```
-    pipenv install --dev
-    ```
 - Activate the new virtual environment
     ```
     pipenv shell
@@ -21,5 +17,5 @@
     ```
 - Run development server on localhost
     ```
-    python manage.py runserver :8000
+    python manage.py runserver
     ```
