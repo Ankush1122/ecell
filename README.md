@@ -7,10 +7,6 @@
     ```
     pip install pipenv
     ```
-- Use pipenv to install other dependencies from `Pipfile`
-    ```
-    pipenv install --dev
-    ```
 - Activate the new virtual environment
     ```
     pipenv shell
