@@ -129,9 +129,9 @@ h1 {
 
 @media (min-width: 992px) {
     .column {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
     }
 }
 
@@ -213,9 +213,9 @@ h1 {
 
 @media (min-width: 992px) {
     .column1 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
     }
 }
 
@@ -260,24 +260,39 @@ h1 {
 /********* Team #6 Style **********/
 /**********************************/
 .team-6 {
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
 .team-6 .team-img {
     position: relative;
-    font-size: 0;
-    text-align: center;
-    border-radius: 100%;
-    margin-bottom: 30px;
-    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    /* The size you want */
+}
+
+.team-6 .team-img:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    /* The padding depends on the width, not on the height, so with a padding-bottom of 100% you will get a square */
 }
 
 .team-6 .team-img img {
+    position: absolute;
+    /* Take your picture out of the flow */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Make the picture taking the size of it's parent */
     width: 100%;
-    height: auto;
-    border-radius: 100%;
-    border: 15px solid #AA9962;
-    transition: all .3s;
+    /* This if for the object-fit */
+    height: 100%;
+    /* This if for the object-fit */
+    object-fit: cover;
+    /* Equivalent of the background-size: cover; of a background-image */
+    object-position: center;
 }
 
 .team-6:hover .team-img img {
@@ -298,7 +313,7 @@ h1 {
 .team-6 .team-content h3 {
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .team-6 .team-social {
