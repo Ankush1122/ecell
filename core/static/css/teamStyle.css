@@ -293,10 +293,13 @@ h1 {
     object-fit: cover;
     /* Equivalent of the background-size: cover; of a background-image */
     object-position: center;
+    transition: transform .5s ease;
 }
+
 
 .team-6:hover .team-img img {
     border: 0px solid #AA9962;
+    transform: scale(1.1);
 }
 
 .team-6 .team-content {
@@ -369,8 +372,8 @@ h1 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    background: rgba(0, 0, 0, 0.75);
-    border-bottom: 1px solid rgba(12, 11, 9, 0.85);
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(12, 11, 9, 0.75);
     transition: all 0.5s;
     z-index: 997;
     padding: 5px 0;
