@@ -858,7 +858,10 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Submit</button></div>
+              <div class="popup" onclick="popupFunction2()">
+                <div class="text-center"><button type="submit">Submit</button></div>
+                <span class="popuptext" id="myPopup2">not functional yet :)</span>
+              </div>
             </form>
 
           </div>
@@ -873,5 +876,21 @@
 {% endblock %}
 
 {% block jsfiles %}
+<script>
+  var running2 = false;
+  function popupFunction2() {
+    var popup = document.getElementById("myPopup2");
+    popup.classList.toggle("show");
+    function timeOut2() {
+      var popup = document.getElementById("myPopup2");
+      popup.classList.toggle("show");
+      running2 = false;
+    }
+    if (running2 == false) {
+      setTimeout(timeOut2, 4000);
+      running2 = true;
+    }
+  }
+</script>
 <script src="{% static 'js/homeJs.js' %}"></script>
 {% endblock jsfiles %}
