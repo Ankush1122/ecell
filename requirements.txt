@@ -1,3 +1,2 @@
 django
 gunicorn
-libsqlite3-dev
