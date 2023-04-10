@@ -1,3 +1,6 @@
+## Hosting:
+Hosted at https://web-production-6b2e.up.railway.app/home/
+
 ## Requirements:
 - Python 3.8
 - Other dependencies in `Pipfile`
